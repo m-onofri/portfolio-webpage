@@ -65,7 +65,7 @@ header {
   text-align: center;
 }
 
-#projects h2 {
+h2 {
   padding-top: 4rem;
   padding-bottom: 3rem;
   color: #fff;
@@ -99,6 +99,64 @@ header {
 #tile4 {grid-area: d;}
 #tile5 {grid-area: e;}
 #tile6 {grid-area: f;}
+
+#contacts {
+  background: linear-gradient(#B3D3FD, #000);
+  text-align: center;
+}
+
+h3, p {
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+input {
+  border-radius: 30px;
+  height: 50px;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+  font-size: 0.75rem;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: grey;
+  font-size: 0.75rem;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: grey;
+  font-size: 0.75rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: grey;
+  font-size: 0.75rem;
+}
+
+.submit_button {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  background-color: #FF007D;
+  color: #fff;
+  margin: 1.5rem auto 1rem;
+}
+
+.social_media {
+  padding: 1rem 0;
+}
+
+.social_media a:nth-child(2) {
+  margin: 0 1rem;
+}
+
+
 
 
 
