@@ -15,6 +15,7 @@ h1, h2, h3 {
 h1 {
   font-size: 1.5rem;
   line-height: 1.5;
+  z-index: -12;
 }
 
 a {
@@ -32,7 +33,9 @@ header {
 #navbar {
   position: fixed;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem 1rem 0.25rem;
+  background-color: #151A1A;
+  z-index: 122;
 }
 
 #logo {
@@ -55,6 +58,47 @@ header {
   top: 15vw;
   left: 20vh;
 }
+
+#projects {
+  display: block;
+  background: linear-gradient(#000, #B3D3FD);
+  text-align: center;
+}
+
+#projects h2 {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+
+.project_container {
+  display: grid;
+  width: 800px;
+  margin: auto;
+  padding-bottom: 5rem;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: 
+    "a . b ."
+    ". c . d"
+    "e . f .";
+}
+
+.project-tile {
+  background-color: #fff;
+}
+
+.inner-tile {
+  margin: 20px;
+}
+
+#tile1 {grid-area: a;}
+#tile2 {grid-area: b;}
+#tile3 {grid-area: c;}
+#tile4 {grid-area: d;}
+#tile5 {grid-area: e;}
+#tile6 {grid-area: f;}
 
 
 
