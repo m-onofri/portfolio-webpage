@@ -193,9 +193,9 @@ input {
   border-radius: 50%;
 }
 
-.facebook {background-image: url("../images/facebook.png");}
-.linkedin {background-image: url("../images/linkedin.png");}
-.twitter {background-image: url("../images/twitter.png");}
+.facebook {background: url("../images/social_sprite.png") -1px 0;}
+.linkedin {background: url("../images/social_sprite.png") -131px 0;}
+.twitter {background: url("../images/twitter.png") -64px 0;}
 
 footer {
   background-color: #151A1A;
