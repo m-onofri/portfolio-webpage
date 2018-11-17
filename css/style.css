@@ -179,12 +179,23 @@ input {
 }
 
 .social_media {
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
 }
 
 .social_media a:nth-child(2) {
   margin: 0 1rem;
 }
+
+.social-icon {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.facebook {background-image: url("../images/facebook.png");}
+.linkedin {background-image: url("../images/linkedin.png");}
+.twitter {background-image: url("../images/twitter.png");}
 
 footer {
   background-color: #151A1A;
