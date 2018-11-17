@@ -52,7 +52,7 @@ header {
   font-weight: bold;
 }
 
-#welcome-section {
+.welcome-section {
   color: #fff;
   position: absolute;
   top: 15vw;
@@ -208,7 +208,6 @@ footer {
 
 .ft_credits {
   font-size: 0.75rem;
-  padding-left: 1rem;
   padding-bottom: 1rem;
   text-align: center;
 }
@@ -217,6 +216,104 @@ footer {
   color: #FF007D;
 }
 
+
+@media (max-width: 802px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  #logo img {
+    display: block;
+    width: 79px;
+    height: 21px;
+  }
+
+  .links a {
+    font-size: 0.75rem;
+  }
+
+  .welcome-section {
+    top: 25vw;
+    left: 20vh;
+  }
+
+  .project_container {
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+      "a . b "
+      ". c . "
+      "e . f "
+      ". d . ";
+  }
+
+  form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 602px) {
+  .project_container {
+    width: 400px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: 
+      "a . "
+      ". b "
+      "c . "
+      ". e "
+      "f . "
+      ". d ";
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  #contacts p {
+    font-size: 0.75rem;
+  }
+
+  .ft_text {
+    font-size: 0.75rem;
+  }
+
+  .ft_credits {
+    font-size: 0.5rem;
+  }
+
+  footer {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 402px) {
+  h1 {
+    font-size: 0.75rem;
+  }
+
+  .welcome-section {
+    top: 45vw;
+    left: 10vh;
+  }
+
+  .project_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #tile4 {
+    order: 6;
+  }
+
+  form {
+    width: 80%;
+  }
+
+}
 
 
 
