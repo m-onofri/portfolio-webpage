@@ -86,7 +86,12 @@ h2 {
 }
 
 .project-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
+  width: 200px;
+  height: 200px;
 }
 
 .project, .other_projects {
@@ -96,6 +101,14 @@ h2 {
   height: 160px;
   background-color: #FF007D;
   color: #fff;
+  transition-property: width, height, background-color;
+  transition-duration: 500ms;
+}
+
+.project:hover, .other_projects:hover {
+  width: 200px;
+  height: 200px;
+  background-color: #6dd401; 
 }
 
 .other_projects {
